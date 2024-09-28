@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh ;
+}
+.contents{
+    margin-top: 120px;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(31, 4, 4);
+    padding: 1.3rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    top: 0;
+    
+}
+.ft{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:  20px;
+}
+.icons{
+    margin-left: 700px;
+    display: flex;
+}
+.Bites{
+    color:rgba(255, 230, 90, 0.993);
+    margin-left: 250px;
+}
+.more{
+    color:rgba(255, 230, 90, 0.993) ;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(59, 25, 6) ;
+}
+.bt1{
+    background-color: rgb(59, 25, 6);
+    color: rgba(255, 230, 90, 0.993);
+}
+.bt2{
+    background-color: rgb(59, 25, 6);
+    color: rgba(255, 230, 90, 0.993);
+}
+.bt3{
+    background-color: rgb(59, 25, 6);
+    color: rgba(255, 230, 90, 0.993);
+}
+.bt4{
+    background-color: rgb(59, 25, 6);
+    color: rgba(255, 230, 90, 0.993);
+}
+.Dive{
+    color:rgba(255, 230, 90, 0.993);
+    margin-left: 550px;
+}
+.create{
+    color:rgba(255, 230, 90, 0.993);
+    margin-left: 150px;
+}
+.br{
+    color:rgba(255, 230, 90, 0.993);
+    margin-left: 150px;
+}
+.fan{
+    color:rgba(255, 230, 90, 0.993);
+    margin-left: 250px;
+
+}
+.Share{
+    color:rgba(255, 230, 90, 0.993);
+    margin-left: 250px;
+}
+
+
+.srk{
+   margin-left: 550px;
+   margin-top: 120px;
+}
+.imgs{
+    display: flex;
+    margin-left: 200px;
+}
+.p2{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.p1{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#check{
+    display: none;
+}
+.header .icons{
+    
+    font-size: 2.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    display: none;
+    top: 20px;
+}
+.header .close-icons{
+    font-size: 2.8rem;
+   
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 20px;
+    display: none;
+
+}
+.navbar a{
+    display: inline;
+}
+@media (max-width:992px) {
+    .header{
+        padding: 1.3rem 5%;
+    }
+    #check:checked~.navbar{
+        display: block;
+    }
+    #check:checked~label .icons{
+        display: none;
+    }
+    #check:checked~label .close-icons{
+        display: flex;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color:rgb(59, 25, 6); ;
+        display: none;
+    }
+    .navbar a{
+        display: block;
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 1.5rem 0px;
+    }
+    .header .icons{
+        display: block;
+    }
+    
+  }
+  
+  @media (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+    }
+    
+    .flex-container{
+        flex-wrap: wrap;
+    }
+    .header .icons{
+        display: block;
+    }
+    .header .logo{
+        width:150px;
+        height:100px;
+    }
+    .ft{
+        margin-left: 550px;
+        justify-content: space-between;
+      white-space: nowrap;
+
+    }
+
+    .b1{
+        margin-left: 300px;
+    }
+    .b2{
+       height: 15px;
+       width: 120px;
+    }
+    .p1{
+        margin-left: 120px;
+    }
+    .p2{
+        margin-left: 120px;
+    }
+    .more{
+        margin-left: 400px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .Bites{
+        margin-left: 600px;
+        white-space: nowrap;
+
+    }
+    .br{
+        margin-left: 500px;
+        white-space: nowrap;
+    }
+    .Dive{
+        margin-left: 500px;
+        white-space: nowrap;
+    }
+    .create{
+        margin-left: 450px;
+        padding: 0%;
+       white-space: nowrap;
+    }
+    .fan{
+       
+        margin-left: 550px;
+        white-space: nowrap;
+    }
+    .Share{
+        white-space: nowrap;
+        margin-left: 250px;
+    }
+    .p1{
+        margin-left: 250px;
+    }
+    .p2{
+        margin-left: 300px;
+    }
+    .ft{
+        margin-left: 650px;
+        display: flex;
+    justify-content: space-between;
+   
+       
+    }
+    .icons{
+        margin-left: 700px;
+    }
+  
+  }
+  
